@@ -1,0 +1,178 @@
+/* common startS */
+body{
+    margin:0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(16, 39, 87);
+
+}
+/* common end */
+
+
+/* header start */
+header{padding: 15px 0;
+    border-bottom:2px solid #dad6d6;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0px auto;
+    padding: 30px;
+    overflow: hidden;
+
+}
+.logo{ width:12%;
+    float: left;
+
+}
+.logo image{ width:100%;
+
+
+
+}
+
+.menu{float:right;
+width:55%;
+
+
+}
+.menu ul{float: right;}
+.menu ul li{    float: left;
+    list-style: none}
+.menu ul li a{    text-decoration: none;
+    padding: 0 22px;
+    display: block;
+    color:black;}
+.menu ul li:last-child a{padding-right: 0%;}
+
+.menu ul li a:hover{
+    color: rgb(35, 9, 237);
+}
+
+
+/* header end */
+
+
+/* banner start  */
+.banner {    padding: 70px 0px;
+
+}
+
+.container2{
+             width: 50%;
+              text-align: center;
+               margin:0 auto;
+              overflow: hidden;}
+
+
+    .b_h1{font-size: 55px;
+      font-weight: 700;
+      line-height: 75px;
+       margin:0%;
+}
+
+.b_h1 span{color: #0923ea;
+}
+.b_p {line-height: 25px;
+    
+margin: 10 0 15;}
+
+
+   .b_img{width:8o%;
+           margin:0 auto;} 
+
+.b_img img{width: 100%;}
+
+
+/* banner end */
+
+/* feature start */
+.feature{width: 90%;
+    padding-bottom: 70px;
+
+}
+.f_left h2{font-size: 45px;
+    font-weight: 700;
+    color: red; 
+margin:0;}
+
+    .f_left p{line-height: 25px;}
+
+.f_left{text-align: right;
+    width: 45%;
+    float: left;
+     margin: 10px 0;
+     line-height: 25px;
+}
+.f_right{text-align: left;
+    width: 47%;
+    float:right;
+   
+    }
+.f_right h1{ font-size: 35px;
+            font-weight: 700;
+margin: 0;
+}
+
+/* feature end */
+
+/* service start */
+
+
+.service{padding-bottom: 70px;}
+
+.s_service {
+    margin-right: 2%;
+    width: 32%;
+    box-sizing: border-box;
+    float: left;
+    padding: 50px 15px 60px;
+}
+
+.s_img {    width: 100%;
+}
+
+.s_h2 {    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.s_p {      padding-right: 45px;
+    line-height: 25px;
+}
+.s_service:first-child {
+    background-color: rgb(253, 235, 237);
+}
+.s_service:nth-child(2) {
+    background-color: rgb(235, 249, 244);
+}
+.s_service:last-child {
+    margin-right: 0px;
+    background-color: rgb(255, 247, 232);
+}
+}
+img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+/* service end */
+
+
+footer {
+    background-color: rgb(0, 138, 255);
+    padding: 50px 0px;
+}
+footer p {
+    text-align: center;
+    color: rgb(158, 210, 255);
+}
+
+footer p a {
+    font-weight: 700;
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
